@@ -12,7 +12,7 @@ def convert_time_to_string(dt):
     return f"{dt.hour}:{dt.minute:02}"
 
 def change_img():
-    start_time = datetime.now()
+    start_time = datetime.utcnow()
     text = convert_time_to_string(start_time)
     row = Image.new('RGBA', (200, 200), "white")
     parsed = ImageDraw.Draw(row)
