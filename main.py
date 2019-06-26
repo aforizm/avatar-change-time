@@ -16,7 +16,7 @@ client.start()
 while True:
     change_img()
     client(DeletePhotosRequest(client.get_profile_photos('me')))
-    file = client.upload_file(f"img/time.png")
+    file = client.upload_file(f"time.png")
     client(UploadProfilePhotoRequest(file))
     time.sleep(30)
 

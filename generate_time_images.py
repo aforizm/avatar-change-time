@@ -22,7 +22,7 @@ def change_img():
                  align="center", font=font, fill=(33,33,212))
     parsed.text((53, 125),'Moscow time', 
                  align="center", font=font2, fill=(33,33,212))
-    row.save(f'img/time.png', "PNG")
+    row.save(f'time.png', "PNG")
 
 if __name__ == '__main__':
     change_img()
