@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 telethon = "*"
-pillow = "==7.1.2"
+pillow = "==8.2.0"
 
 [requires]
 python_version = "3.6"
